@@ -1,0 +1,6 @@
+*
+!*.yaml
+!.gitignore
+secrets.yaml
+home-panel.db
+.wink.config

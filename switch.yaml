@@ -1,0 +1,24 @@
+  - platform: tplink
+    name: Living Room Light 1
+    host: !secret sw_lrl1 
+  - platform: tplink
+    name: Living Room Light 2
+    host: !secret sw_lrl2 
+  - platform: tplink
+    name: Living Room Light 3
+    host: !secret sw_lrl3 
+  - platform: tplink
+    name: Master Bedroom Fan
+    host: !secret sw_mbf1
+  - platform: tplink
+    name: 1st Floor Bathroom Fan
+    host: !secret sw_1bf1
+  - platform: tplink
+    name: Living Room Fan
+    host: !secret sw_lrf1
+  - platform: tplink
+    name: Bedroom Fan
+    host: !secret sw_2bf1
+  - platform: tplink
+    name: Bedroom Light 2
+    host: !secret sw_2bl2

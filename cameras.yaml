@@ -1,0 +1,63 @@
+  - platform: generic
+    name: Front
+    authentication: digest
+    username: !secret dahua_username
+    password: !secret dahua_password
+    still_image_url: http://192.168.185.161/cgi-bin/snapshot.cgi
+  - platform: generic
+    name: Front Door
+    authentication: digest
+    username: !secret dahua_username
+    password: !secret dahua_password
+    still_image_url: http://192.168.185.151/cgi-bin/snapshot.cgi
+  - platform: generic
+    name: Backyard S
+    authentication: digest
+    username: !secret dahua_username
+    password: !secret dahua_password
+    still_image_url: http://192.168.185.152/cgi-bin/snapshot.cgi
+  - platform: generic
+    name: Backyard N
+    authentication: digest
+    username: !secret dahua_username
+    password: !secret dahua_password
+    still_image_url: http://192.168.185.160/cgi-bin/snapshot.cgi
+  - platform: generic
+    name: Living Room
+    authentication: digest
+    username: !secret hikvision_username
+    password: !secret hikvision_password
+    still_image_url: http://192.168.185.163/ISAPI/Streaming/channels/101/picture
+  - platform: generic
+    name: Garage NE
+    still_image_url: !secret hikvision_url_1
+  - platform: generic
+    name: Driveway ES
+    still_image_url: !secret hikvision_url_2
+  - platform: generic
+    name: Driveway SE
+    still_image_url: !secret hikvision_url_3
+  - platform: generic
+    name: MRB Door
+    still_image_url: !secret vivotek_url_1
+  - platform: generic
+    name: MRB Room
+    still_image_url: !secret vivotek_url_2
+  - platform: generic
+    name: Server Door
+    still_image_url: !secret vivotek_url_3
+  - platform: generic
+    name: Server Cabinet (Back)
+    still_image_url: !secret arecont_url_1
+  - platform: generic
+    name: MRB PTZ
+    authentication: digest
+    username: !secret amcrest_username
+    password: !secret amcrest_password
+    still_image_url: http://192.168.185.52/cgi-bin/snapshot.cgi
+  - platform: generic
+    name: Server PTZ
+    authentication: digest
+    username: !secret amcrest_username
+    password: !secret amcrest_password
+    still_image_url: http://192.168.185.153/cgi-bin/snapshot.cgi
